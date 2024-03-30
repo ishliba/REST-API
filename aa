@@ -1,0 +1,90 @@
+[33mcommit 6a27fcf61ee4777c8a02a046a3d75352971dfc48[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 31 00:29:57 2024 +0530
+
+    Added profiles viewset
+
+[33mcommit 5274259a77b1c9fb6793d2a738616d6e36f19085[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sat Mar 30 17:22:20 2024 +0530
+
+    Added viewset to profile api
+
+[33mcommit 8ac327c3da96ab69888b4a5a2d52b12187550842[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Mon Mar 25 22:58:04 2024 +0530
+
+    Added post,put, and patch
+
+[33mcommit 29e515d79d3602774dc90dc0abb68cc0fed6b3f7[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Mon Mar 25 18:26:32 2024 +0530
+
+    Added url page and added views
+
+[33mcommit 4043875f86059afeb36a46f17df6fe234c5e43b6[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 24 17:59:14 2024 +0530
+
+    Created new readme
+
+[33mcommit a429718212b9318a433870514ff7cb7eb2a5cdeb[m[33m ([m[1;31morigin/uat[m[33m)[m
+Merge: 1bdcaea 10c196f
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 24 17:48:01 2024 +0530
+
+    removed readme
+
+[33mcommit 10c196f478b6e323ef7b82f6002dab4e70b21a5c[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 24 17:42:41 2024 +0530
+
+    nothing done
+
+[33mcommit 1bdcaea970874d4316c8434b82f6411b9d0a5686[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 24 17:34:10 2024 +0530
+
+    testing UAT branch
+
+[33mcommit adad06196e8285f97132c821e35639cb4fad7154[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 24 17:25:11 2024 +0530
+
+    Updated models, and django admin
+
+[33mcommit d685a0795e92ed17f5efe835381b6d145798a06c[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 24 14:08:16 2024 +0530
+
+    Added custom user model, maanger and migrations
+
+[33mcommit 22e05826cf9108fb4624ac3d49d2449a3c7a8d04[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 10 20:46:54 2024 +0530
+
+    Updated Readme file
+
+[33mcommit 043e66eb232888831bc5df67cfd56b59084adca8[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Sun Mar 10 20:41:25 2024 +0530
+
+    Added custom user profile model, manager, and migrations
+
+[33mcommit 2a5e145b4f93667d163dba9bb1e48717e1de8bb6[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Fri Mar 1 12:40:18 2024 +0530
+
+    Added django apps and webapp_API
+
+[33mcommit be787b5fabe9fbef6210a2245b634768952fd018[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Mon Feb 12 17:28:07 2024 +0530
+
+    Configured vagrant and setup hello world script
+
+[33mcommit c4b5ffb777dce2f2fe6c086a0780e49b6dea2c8b[m
+Author: Manish <ishliba96@gmail.com>
+Date:   Fri Feb 2 22:39:32 2024 +0530
+
+    initial commit
