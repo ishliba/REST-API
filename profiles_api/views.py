@@ -2,15 +2,14 @@ from rest_framework.views import APIView
 from rest_framework.views import Response
 from rest_framework import status  #to return status codes for API
 from rest_framework import viewsets
+from rest_framework.authentication import TokenAuthentication
+from profiles_api import permissions
 
 from django.shortcuts import render
 file = "/test.html"
 
-from profiles_api import serializers
+from profiles_api import serializers, models
 
-def test(request):
-    hi = "My name is manish"
-    return render(request, 'test.html')
 
 
 class HelloAPiView(APIView):
@@ -68,6 +67,7 @@ class HelloViewSet(viewsets.ViewSet):
 
     serializer_class = serializers.HelloSerializer
 
+
     def list(self, request):
         """Return a hello method"""
         a_viewset = [
@@ -109,3 +109,9 @@ class HelloViewSet(viewsets.ViewSet):
         return Response({'http_method': 'DELETE'})
 
 
+class UserProfileViewset(viewsets.ModelViewSet):
+    """Handle creating and updating profiles """
+    serializer_class = serializers.UserProfileSerializer
+    queryset = models.UserProfile.objects.all( )
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (permissions.UpdateOwnProfile,)
